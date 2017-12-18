@@ -1,0 +1,22 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>数学科就活</title>
+</head>
+<body>
+<h1>数学科のための就活口コミサイト</h1>
+本サイトは、数学科の大学生向けに特化した就活口コミサイトです。<br>
+おすすめの企業情報から、インターンシップ・ES・面接情報、さらには利用者が投稿した各種アドバイスまで、
+あらゆる口コミを取り揃えております。<br>
+これらの口コミは登録すればすべて無料で閲覧できます。<br>
+ぜひ新規登録をして、有益な口コミをゲットしましょう！<br><br>
+
+<form action="mission_3_6touroku.php" method="post">
+  <input type="submit" value="新規登録" />
+</form>
+<form action="mission_3_7login.php" method="post">
+  <input type="submit" value="ログイン" /><br />
+</form>
+<a href="http://co-609.it.99sv-coco.com/">戻る</a>
+</body>
+</html>
