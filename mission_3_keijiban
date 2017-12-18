@@ -1,0 +1,38 @@
+<?php
+session_start();
+
+// ログイン状態のチェック
+if (!isset($_SESSION["USERID"])) {
+  header("Location: mission_3_7logout.php");
+  exit;
+}
+
+echo "　ようこそ" . $_SESSION["NAME"] . "さん";
+?>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>数学科就活－掲示板</title>
+</head>
+<body>
+　<a href="mission_3_7logout.php">ログアウト</a>
+　<a href="mission_3_main.php">メイン画面に戻る</a>
+　<a href="http://co-609.it.99sv-coco.com/">このサイトを出る</a>
+
+<h2>数学科なんでも掲示板</h2>
+
+<ul>
+<li><a href="mission_3_junbi.php">就活準備</a></li>
+<li><a href="mission_3_intern.php">インターンシップ</a></li>
+<li><a href="mission_3_ES.php">エントリーシート・適性検査・GD</a></li>
+<li><a href="mission_3_mensetsu.php">面接</a></li>
+<li><a href="mission_3_osusumecompany.php">オススメ企業</a></li>
+</ul>
+
+<form action="mission_3_toppage.php" method="post">
+  <input type="submit" value="戻る" />
+</form>
+
+</body>
+</html>
